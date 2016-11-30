@@ -16,5 +16,16 @@
         "VIP_0": "/sise:80"
       }
     }
+  ],
+  "healthChecks": [
+    {
+      "protocol": "HTTP",
+      "path": "/health",
+      "gracePeriodSeconds": 10,
+      "intervalSeconds": 20,
+      "timeoutSeconds": 1,
+      "maxConsecutiveFailures": 3,
+      "ignoreHttp1xx": false
+    }
   ]
 }
