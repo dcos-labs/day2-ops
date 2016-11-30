@@ -1,0 +1,20 @@
+{
+  "id": "/sise",
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 32,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "mhausenblas/simpleservice:0.4.0",
+      "network": "HOST"
+    }
+  },
+  "portDefinitions": [
+    {
+      "labels": {
+        "VIP_0": "/sise:80"
+      }
+    }
+  ]
+}
