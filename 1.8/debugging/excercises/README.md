@@ -82,9 +82,9 @@
 
 Prerequisite:
 
-    * [marathon-lb](https://dcos.io/docs/1.8/usage/service-discovery/marathon-lb/) installed on all public nodes
-    * [IP of your public agent](https://dcos.io/docs/1.8/administration/locate-public-agent/)
-    * [Dcos CLI](https://dcos.io/docs/1.8/usage/cli/#docs-article) installed
+ * [marathon-lb](https://dcos.io/docs/1.8/usage/service-discovery/marathon-lb/) installed on all public nodes
+ * [IP of your public agent](https://dcos.io/docs/1.8/administration/locate-public-agent/)
+ * [DC/OS CLI](https://dcos.io/docs/1.8/usage/cli/#docs-article) installed
 
 
 We want to deploy webserver listening on port 3030, and even set the service port so we can reach it via marathon-lb.
